@@ -19,6 +19,32 @@ body {
   align-items: center;
 }
 
+a {
+  text-decoration: none;
+  color: #000000;
+  margin: 0 20px;
+}
+
+@media (max-width: 950px) {
+  .nav {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .nav-list li {
+    padding: 5px 0;
+  }
+}
+
 .logo {
   margin-left: 30px;
 }
@@ -30,12 +56,6 @@ body {
 
 .nav .nav-list {
   display: flex;
-}
-
-a {
-  text-decoration: none;
-  color: #000000;
-  margin: 0 20px;
 }
 
 .nav-list a:hover {
@@ -77,6 +97,7 @@ a {
 
 .main-buttons {
   display: flex;
+  justify-content: center;
 }
 
 .button-primario {
@@ -107,6 +128,15 @@ a {
 
 .main-image {
   width: 100%;
+}
+
+@media (max-width: 950px) {
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  
 }
 
 .section {
