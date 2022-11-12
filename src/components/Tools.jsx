@@ -4,25 +4,25 @@ import featImg2 from '../img/Grupos.png'
 
 function Tools() {
   return (
-    <section className="section" id="tools">
-        <div className="tools-divs">
-            <div className="tools-divs-components">
-                <h1 className="tools-title">Rutas de Aprendizaje</h1>
-                <p className="tools-content">
+    <section class="section" id="tools">
+        <div class="tools-divs">
+            <div class="tools-divs-components">
+                <h1 class="tools-title">Rutas de Aprendizaje</h1>
+                <p class="tools-content">
                     Aprende diversos temas y cursos uniéndote a las rutas de aprendizaje que tenemos preparadas para tí, con muchos retos que harán que tu experiencia aprendiendo sea más divertida.
                 </p>
             </div>
-            <div className="tools-divs-components">
-                <img src={featImg1} alt="fondo-rutas" className="routes-image"/>
+            <div class="tools-divs-components">
+                <img src={featImg1} alt="fondo-rutas" class="lr-image"/>
             </div>
         </div>
-        <div className="tools-divs">
-            <div className="tools-divs-components">
-                <img src={featImg2} alt="fondo-grupos" className="groups-image"/>
+        <div class="tools-divs">
+            <div class="tools-divs-components">
+                <img src={featImg2} alt="fondo-grupos" class="lr-image"/>
             </div>
-            <div className="tools-divs-components">
-                <h1 className="tools-title">Grupos de Estudio</h1>
-                <p className="tools-content">
+            <div class="tools-divs-components">
+                <h1 class="tools-title">Grupos de Estudio</h1>
+                <p class="tools-content">
                     Únete o crea grupos de estudio para poder hablar sobre diversos temas con otros estudiantes y realizar conferencias con diversas herramientas que te ayudaran demostrar tus conocimientos, etc.
                 </p>
             </div>
