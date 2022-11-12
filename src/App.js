@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Companies from "./components/Companies";
 import Testimonies from "./components/Testimonies";
 import Join from "./components/Join";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Companies/>
       <Testimonies/>
       <Join/>
+      <Footer/>
     </div>
   );
 }

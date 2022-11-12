@@ -144,8 +144,6 @@ a {
     display: flex;
     flex-direction: column-reverse;
   }
-
-  
 }
 
 .section {
@@ -313,6 +311,13 @@ input[type=button]:hover {
   padding-left: 60px;
 }
 
+@media (max-width: 950px) {
+  .logo-list {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 footer {
   background-color: #000000;
   bottom: 0;
@@ -349,4 +354,14 @@ td .nav {
   align-items: center;
   justify-content: left;
   width: 100%;
+}
+
+.nav-footer .nav-list li {
+  padding: 5px 0;
+}
+
+.logo-list {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
 }
