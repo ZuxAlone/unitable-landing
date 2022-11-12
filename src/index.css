@@ -239,6 +239,10 @@ a {
   padding: 0px 20px 0px 20px;
 }
 
+.test-pad {
+  padding: 0 150px;
+}
+
 .person_img {
   border-radius: 100%;
   padding: 10px 0px 10px 0px;
