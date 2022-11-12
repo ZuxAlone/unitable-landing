@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .nav {
@@ -153,6 +153,7 @@ a {
 }
 
 #tools {
+  background-color: #C9DBFF;
   padding: 10px;
 }
 

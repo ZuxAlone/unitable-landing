@@ -11,16 +11,18 @@ function Navbar() {
         }
     }
 
+    window.addEventListener("scroll", changeBackground);
+
     return (
-        <nav class="nav">
-            <h1 class="logo">UniTable</h1>
-            <ul class="nav-list">
+        <nav className="nav">
+            <h1 className="logo">UniTable</h1>
+            <ul className="nav-list">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Herramientas</a></li>
                 <li><a href="#">Empresas</a></li>
                 <li><a href="#">Testimonios</a></li>
                 <li><a href="#">Únetenos</a></li>
-                <li><a href="#" class="button-nav">Inicie Aquí</a></li>
+                <li><a href="#" className="button-nav">Inicie Aquí</a></li>
             </ul>
         </nav>
     )
