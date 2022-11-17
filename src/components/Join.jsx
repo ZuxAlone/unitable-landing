@@ -12,7 +12,7 @@ function Join() {
                 </div>
             </div>
             <div className="join-btn-div">
-                <a href="#" className="button-primario">Únete</a>
+                <a href="https://ggonzalesd.github.io/UnitableWebApp/" className="button-primario">Únete</a>
             </div>
         </div>
     </section>

@@ -12,7 +12,7 @@ function Header() {
                 <p>UniTable es una plataforma web que te ayudara a mejorar en los estudios con sus diversas funcionalidades, además te
                 ayudará a mejorar tu concentración y a organizar tu tiempo.</p>
                 <div className="main-buttons">
-                    <a href="#" className="button-primario">Únete</a>
+                    <a href="https://ggonzalesd.github.io/UnitableWebApp/" className="button-primario">Únete</a>
                     <a href="#" className="button-secundario">App móvil gratis</a>
                 </div>
             </div>
