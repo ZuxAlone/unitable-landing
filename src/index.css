@@ -237,6 +237,15 @@ a {
   padding: 0px 20px 0px 20px;
 }
 
+.prom-video {
+  border-top: 2px solid black;
+  margin-top: 20px;
+}
+
+.prom-video h1 {
+  padding: 20px 0;
+}
+
 .test-pad {
   padding: 0 150px;
 }
